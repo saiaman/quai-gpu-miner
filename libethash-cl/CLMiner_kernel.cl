@@ -261,7 +261,7 @@ ethash_search(__global struct SearchResults* restrict g_output, __constant hash3
 //
 
 
-#define ETHASH_DATASET_PARENTS 256
+#define ETHASH_DATASET_PARENTS 512
 #define NODE_WORDS (64 / 4)
 
 __constant uint2 const Keccak_f1600_RC[24] = {
